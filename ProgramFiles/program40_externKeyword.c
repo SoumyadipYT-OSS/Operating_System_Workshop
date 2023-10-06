@@ -13,4 +13,3 @@ int main()
 	printf("Local variable val = %d\n", val);
 	return 0;
 }
-
