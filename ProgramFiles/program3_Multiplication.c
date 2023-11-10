@@ -2,7 +2,7 @@
 int multiplication(float a, float b) {
 	float mul = a*b;
 	printf("Result: ");
-	printf("%f", mul);
+	printf("%f\n", mul);
     return 0;
 }
 
