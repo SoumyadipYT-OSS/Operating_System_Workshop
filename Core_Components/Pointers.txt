@@ -1,0 +1,23 @@
+__C pointers__
+Pointers are one of the core components of the C programming language.
+A pointer is a variable that stores the memory address of another variable. 
+Pointers are used to manipulate data using the address of the 
+data instead of the data itself.
+
+>> example1:	int *p;
+				 [-] This declares a pointer p of type int. The * operator is used to declare a pointer. Here '*' symbol is called asterick.
+			
+					
+>> example2: 	int var = 5;
+					int *p;
+					p = &var;
+				 [-] This assigns the address of 'var' to the pointer 'p'. To access the value stored at the address pointed to by a pointer, you can
+use the * operator.
+
+
+>> example3:	int var=5;
+					int *p;
+					p = &var;
+					*p = 10;
+					printf("%d", var);
+				 [-] This will print 10, which is the new value of 'var'.
